@@ -70,10 +70,10 @@ export default function EncryptPage() {
     // }
 
     // Login
-    const payload = {
-        "username": "superAdmin",
-        "password": "superAdmin@3863"
-    }
+    // const payload = {
+    //     "username": "superAdmin",
+    //     "password": "superAdmin@3863"
+    // }
 
     // Update User
     // const payload = {
@@ -96,9 +96,9 @@ export default function EncryptPage() {
     // }
 
     // Reservation Order Update Is Checked
-    // const payload = {
-    //     "is_checked": true
-    // }
+    const payload = {
+        "is_checked": false
+    }
 
     useEffect(() => {
         setMounted(true);
